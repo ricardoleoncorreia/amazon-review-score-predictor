@@ -1,0 +1,17 @@
+name: amazon_review_score_predictor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.13
+  - ruff
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - scipy
+  - seaborn
+  - spacy
+  - jupyter
+prefix: /opt/miniconda3/envs/amazon_review_score_predictor

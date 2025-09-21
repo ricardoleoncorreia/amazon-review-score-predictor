@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "amazon_review_score_predictor"
+version = "0.0.1"
+description = "Use Machine Learning techniques to predict score reviews"
+authors = [
+  { name = "Ricardo Leon Correia" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.13.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["amazon_review_score_predictor"]
+include = ["pyproject.toml", "amazon_review_score_predictor/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["amazon_review_score_predictor"]
+force-sort-within-sections = true
+

@@ -18,3 +18,27 @@ Some complementary readings to improve the result are the following (spanish art
 * [Deep learning, introducción práctica con Keras](https://torres.ai/deep-learning-inteligencia-artificial-keras/).
 * [Predicciones con Incertidumbre](https://www.bbvaaifactory.com/es/improving-predictions-in-deep-learning-by-modelling-uncertainty-2/).
 * [Aprendizaje automático teórico y avanzado con TensorFlow](https://www.tensorflow.org/resources/learn-ml/theoretical-and-advanced-machine-learning?hl=es-419).
+
+## Project Organization
+
+```
+├── LICENSE            <- Open-source license if one is chosen
+├── Makefile            <- Makefile with convenience commands like `make data` or `make train`
+├── README.md          <- The top-level README for developers using this project.
+├── data
+│   ├── external       <- Data from third party sources.
+│   ├── interim        <- Intermediate data that has been transformed.
+│   ├── processed      <- The final, canonical data sets for modeling.
+│   └── raw            <- The original, immutable data dump.
+│
+├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+│                         the creator's initials, and a short `-` delimited description, e.g.
+│                         `1.0-jqp-initial-data-exploration`.
+│
+├── pyproject.toml     <- Project configuration file with package metadata for 
+│                         amazon_review_score_predictor and configuration for tools like black
+│
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+│
+└── environment.yml    <- The requirements file for reproducing the analysis environment
+```
