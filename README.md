@@ -19,6 +19,10 @@ Some complementary readings to improve the result are the following (spanish art
 * [Predicciones con Incertidumbre](https://www.bbvaaifactory.com/es/improving-predictions-in-deep-learning-by-modelling-uncertainty-2/).
 * [Aprendizaje automático teórico y avanzado con TensorFlow](https://www.tensorflow.org/resources/learn-ml/theoretical-and-advanced-machine-learning?hl=es-419).
 
+### Dataset
+
+**Note:** Amazon has deprecated their original dataset on [AWS Open Data Registry](https://registry.opendata.aws/amazon-reviews-ml/). Instead, we are using the Amazon Reviews Multi dataset from [Kaggle](https://www.kaggle.com/datasets/mexwell/amazon-reviews-multi) which provides multilingual Amazon product reviews including Spanish reviews that are the focus of this project.
+
 ## Project Organization
 
 ```

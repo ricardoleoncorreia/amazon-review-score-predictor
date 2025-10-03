@@ -46,7 +46,6 @@ format:
 
 
 
-
 ## Set up Python interpreter environment
 .PHONY: create_environment
 create_environment:
@@ -62,6 +61,11 @@ create_environment:
 #################################################################################
 
 
+# Activar el environment de Python
+.PHONY: activate_environment
+activate_environment:
+	@echo "Para activar el entorno ejecuta en tu terminal:"
+	@echo "conda activate $(PROJECT_NAME)"
 
 #################################################################################
 # Self Documenting Commands                                                     #
